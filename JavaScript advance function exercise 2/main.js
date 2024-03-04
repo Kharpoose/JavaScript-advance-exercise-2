@@ -29,3 +29,20 @@ function countPositive(nums) {
 
   console.log(countPositive([1, -3, -5]));
   console.log(countPositive([-2, -3, -5, 12, 7, 10]));
+
+
+  
+function countPositive(nums) {
+  let negativeNumbers = 0;
+
+  nums.forEach((num) => {
+    if (num > 0) {
+      negativeNumbers++;
+    }
+  });
+
+  return negativeNumbers;
+}
+
+console.log(countPositive([1, -3, -5]));
+console.log(countPositive([-2, -3, -5, 12, 7, 10]));
