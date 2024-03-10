@@ -44,5 +44,5 @@ function countPositive(nums) {
   return negativeNumbers;
 }
 
-console.log(countPositive([1, -3, -5]));
+console.log(countPositive([1, -3, -5, -9, 5]));
 console.log(countPositive([-2, -3, -5, 12, 7, 10]));
